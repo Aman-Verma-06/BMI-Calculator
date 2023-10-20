@@ -11,4 +11,4 @@ Interpret the calculated BMI to provide a health assessment (underweight, normal
 User-friendly interface.
 Provides instant feedback on the user's BMI status.
 
------------------------------------------------------------------------THANK YOU--------------------------------------------------------------------------
+-----------------------------------------------------------------------THANK YOU-------------------------------------------------------------------------
