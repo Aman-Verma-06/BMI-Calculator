@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+.container{
+    width: 700px;
+    background: linear-gradient(115deg, #60edfa 10%, #bc2cff 90%);
+    padding: 40px 40px;
+    border-radius: 10px;
+    transition: .75s;
+}
+.container:hover{
+    box-shadow: 12px 12px 5px rgba(65, 62, 62, 0.3);
+    transition: .75s;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+input[type=text]{
+    border: solid black 2px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.row-first, .row-second{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+label{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Bt1{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.cal-button{
+    padding: 15px 15px;
+    border: solid black 2px;
+    border-radius: 20px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .75s;
+    cursor: pointer;
+}
+.cal-button:hover{
+    background-color: black;
+    transition: .75s;
+    color: #fff;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.cal-button:active{
+    background-color: rgb(58, 58, 58);
+    transition: 0.50s;
+}
+
+.Result{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}

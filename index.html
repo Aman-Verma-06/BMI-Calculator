@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Body Mass Index(BMI) Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form>
+            <div class="row-first">
+                <label>Height in CM:<input type="text" placeholder="Enter your height" id="height"></label>
+            </div>
+            <div class="row-second">
+                <label>Weight in KG:<input type="text" placeholder="Enter your weight" id="weight"></label>
+            </div>
+            <div class="Bt1">
+                <button class="cal-button">Calculate</button>
+            </div>
+            <div class="Result" id="results"></div>
+            <h3><u>BMI Weight Guide</u></h3>
+            <p>&#9830;&nbsp;If your&nbsp;<u>BMI is less than 18.5</u>, it falls within the &nbsp;<u>underweight range</u>.</p>
+            <p>&#9830;&nbsp;If your&nbsp;<u>BMI is 18.5 to 24.9</u>, it falls within the &nbsp;<u>Healthy Weight range</u>.</p>
+            <p>&#9830;&nbsp;If your&nbsp;<u>BMI is 25.0 to 29.9</u>, it falls within the &nbsp;<u>overweight range</u>.</p>
+            <p>&#9830;&nbsp;If your&nbsp;<u>BMI is 30.0 or higher</u>, it falls within the &nbsp;<u>obese range</u>.</p>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
